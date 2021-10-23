@@ -5,7 +5,7 @@ import android.graphics.drawable.Drawable
 import android.widget.ImageView
 import androidx.annotation.DrawableRes
 
-const val Picture="PICTURE"
+const val PICTURE="PICTURE"
 const val NAME="NAME"
 const val ROLE="ROLE"
 data class Champion(

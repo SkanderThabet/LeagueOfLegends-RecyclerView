@@ -7,9 +7,8 @@
     tools:context=".Champion_Details">
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="188dp"
         android:gravity="center|clip_horizontal"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -30,6 +29,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
+                android:id="@+id/championAvatar"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center|clip_horizontal"
@@ -47,22 +47,25 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="clip_horizontal|center"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/championRole"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="64dp"
+                    android:layout_gravity="clip_horizontal|center"
+                    android:layout_margin="8dp"
                     android:text="Role" />
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/championName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="64dp"
+                    android:layout_gravity="clip_horizontal|center"
+                    android:layout_margin="8dp"
                     android:text="Name" />
 
             </LinearLayout>
